@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #333;
+    margin: 20px 0;
+}
+
+#taskInput {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#task {
+    width: 40%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#dueDate {
+    width: 30%;
+    padding: 10px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+button {
+    background-color: #FF5733; /* Change this color to your liking */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.task-list {
+    display: inline-block;
+    width: 45%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #F7F1E3; /* Change this color to your liking */
+}
+
+.task-list h2 {
+    background-color: #FF5733; /* Change this color to your liking */
+    color: white;
+    padding: 10px;
+    margin: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFC300; /* Change this color to your liking */
+}
+
+/* Add color to specific elements within the list items */
+.task-text {
+    color: #333; /* Change this color to your liking */
+}
+
+.due-date {
+    color: #44BD32; /* Change this color to your liking */
+}
+
+.timestamp {
+    color: #3498DB; /* Change this color to your liking */
+}
+
+.complete-button {
+    background-color: #44BD32; /* Change this color to your liking */
+}
+
+.edit-button {
+    background-color: #3498DB; /* Change this color to your liking */
+}
+
+.delete-button {
+    background-color: #E74C3C; /* Change this color to your liking */
+}

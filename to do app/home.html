@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>To-Do App</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>To-Do App</h1>
+
+    <div id="taskInput">
+        <input type="text" id="task" placeholder="Add a new task">
+        <input type="datetime-local" id="dueDate" placeholder="Due Date">
+        <button onclick="addTask()">Add</button>
+    </div>
+
+    <div id="taskLists">
+        <div id="pendingTasks" class="task-list">
+            <h2>Pending Tasks</h2>
+            <ul id="pendingList">
+            </ul>
+        </div>
+
+        <div id="completedTasks" class="task-list">
+            <h2>Completed Tasks</h2>
+            <ul id="completedList">
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
